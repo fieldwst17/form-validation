@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Athiti:wght@300&family=Charm:wght@700&family=Itim&family=Prompt&family=Roboto+Slab:wght@100&family=Sriracha&family=Taviraj:wght@100&display=swap');
+*{
+    font-family: 'Itim', cursive;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    min-height: 100vh;
+    background: #fafafa;
+}
+
+.container{
+    background: #FFFF;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 3);
+    padding: 30px;
+    padding-top: 10px;
+    width: 400px;
+}
+
+.form{
+    padding: 10px 40px;
+}
+
+h2{
+    text-align: center;
+    margin: 0 0 20px;
+    font-weight: 200;
+}
+
+.form-control{
+    position: relative;
+    margin-bottom: 10px ;
+}
+
+.form-control label{
+    display: block;
+    margin-bottom: 10px;
+    font-weight: lighter;
+    padding-top: 10px;
+}
+
+.form-control input{
+    display: block;
+    padding: 5px;
+    width: 100%;
+    border: 3px solid #3333;
+    border-radius: 5px;
+    font-size: 16px;
+    
+}
+
+.form-control input:focus{
+    outline:none;
+}
+
+.form button{
+    display: block;
+    color: #FFFAF0;
+    background: #1E90FF;
+    border: 5px thin black;
+    border-radius: 5px;
+    margin-top: 30px;
+    font-weight: bold;
+    width: 50%;
+    cursor: pointer;
+    margin-left: 60px;
+    margin-top: 50px;
+    padding: 10px;
+}
+
+
+
