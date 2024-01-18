@@ -30,6 +30,7 @@ h2{
     text-align: center;
     margin: 0 0 20px;
     font-weight: 200;
+    
 }
 
 .form-control{
@@ -48,9 +49,11 @@ h2{
     display: block;
     padding: 5px;
     width: 100%;
-    border: 3px solid #3333;
+    border: 2px solid #3333;
     border-radius: 5px;
     font-size: 16px;
+    box-shadow: 3px 3px 5px #3333;
+
     
 }
 
@@ -58,11 +61,11 @@ h2{
     outline:none;
 }
 
-.form button{
+.form button {
     display: block;
     color: #FFFAF0;
     background: #1E90FF;
-    border: 5px thin black;
+    border: transparent;
     border-radius: 5px;
     margin-top: 30px;
     font-weight: bold;
@@ -71,6 +74,50 @@ h2{
     margin-left: 60px;
     margin-top: 50px;
     padding: 10px;
+}
+
+.button {
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 18px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 20px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+/* แก้ไขที่นี่ */
+.form button:hover {
+    box-shadow: 3px 3px 5px #3333;
 }
 
 

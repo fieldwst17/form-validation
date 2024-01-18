@@ -91,8 +91,7 @@ const FormComponent =()=>{
                 </div>
 
                 {/* submit */}
-                <button type="submit">Register</button>
-
+                <button class="button" type="submit"><span>Register</span></button>
             </form>
         </div>
     )
